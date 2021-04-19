@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   let dogFilter = 0;
   
-  ///////////////////////////////FETCH////////////////////////////////////////
+  
   function getDogs() {
     const url = "http://localhost:3000/pups";
       // Fetch for all dogs list.
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(r => r.json())
   }
   
-  ///////////////////////////////FETCH////////////////////////////////////////
+
   
   function showDogsList() {
       getDogs().then(showDogs);
